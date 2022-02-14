@@ -107,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   INCLUDE_DIRS include
 #  LIBRARIES tango_description
-  CATKIN_DEPENDS roscpp rospy rviz std_msgs urdf xacro
+  CATKIN_DEPENDS roscpp rospy std_msgs urdf xacro
 #  DEPENDS system_lib
 )
 
