@@ -10,7 +10,6 @@ project(tango_description)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  rviz
   std_msgs
   urdf
   xacro
