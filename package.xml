@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>tango_description</name>
-  <version>1.0.0</version>
-  <description>The tango_description package</description>
-  <maintainer email="keiranburrows@hotamil.co.uk">Dr Keiran Burrows</maintainer>
+  <version>2.0.0</version>
+  <description>The tango_description package contains the urdf description and meshes for the robot</description>
+  <maintainer email="robotics@fearn.org.uk">Tomos Fearn</maintainer>
+  <url type="repository">https://github.com/fearn-robotics/tango_description</url>
   <author email="keiranburrows@hotmail.co.uk">Dr Keiran Burrows</author>
-  <license>BSD</license>
+  <author email="robotics@fearn.org.uk">Tomos Fearn</author>
+  <license>BSD-3</license>
 
   <!--   <build_depend>message_generation</build_depend> -->
   <!--   <exec_depend>message_runtime</exec_depend> -->
