@@ -98,7 +98,7 @@
       <wheelTorque>5</wheelTorque>
       <odometrySource>world</odometrySource>
       <torque>20</torque>
-      <commandTopic>tango/cmd_vel</commandTopic>
+      <commandTopic>/cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>base_link</robotBaseFrame>
