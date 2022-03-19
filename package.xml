@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>tango_description</name>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
   <description>The tango_description package contains the urdf description and meshes for the robot</description>
   <maintainer email="robotics@fearn.org.uk">Tomos Fearn</maintainer>
   <url type="repository">https://github.com/fearn-robotics/tango_description</url>

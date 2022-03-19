@@ -2,6 +2,13 @@
 Changelog for package tango_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2022-03-18)
+------------------
+* Changed topic paths for simulation from:
+* /laser/scan to /scan
+* /tango/cmd_vel to /cmd_vel
+* Contributors: Tomos Fearn
+
 2.0.0 (2021-11-20)
 ------------------
 * Overhauled software and updated to ROS1 Noetic
