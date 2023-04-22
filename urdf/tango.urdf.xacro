@@ -33,6 +33,7 @@
   <xacro:create_fixed_link_joint prefix="first_tier" parent="bottom_tier_link" joint_xyz="0 0 ${bottom_tier_to_first_tier}" joint_rpy="0 0 0"/>
   <xacro:create_fixed_link_joint prefix="second_tier" parent="first_tier_link" joint_xyz="0 0 ${first_tier_to_second_tier}" joint_rpy="0 0 0"/>
   <xacro:create_fixed_link_joint prefix="third_tier" parent="second_tier_link" joint_xyz="0 0 ${second_tier_to_third_tier}" joint_rpy="0 0 0"/>
+  <xacro:create_fixed_link_joint prefix="rpicamera" parent="second_tier_link" joint_xyz="${second_tier_to_rpicam} 0 0" joint_rpy="0 0 0"/>
   <xacro:create_fixed_link_joint prefix="slam_tier" parent="third_tier_link" joint_xyz="-0.115 0 ${third_tier_to_slam_tier}" joint_rpy="0 0 0"/>
   
   <xacro:if value="$(arg arc)">
