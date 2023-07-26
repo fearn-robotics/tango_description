@@ -12,7 +12,8 @@
   <xacro:property name="bottom_tier_to_first_tier" value="0.123"/>
   <xacro:property name="first_tier_to_second_tier" value="0.105"/>
   <xacro:property name="second_tier_to_third_tier" value="0.092"/>
-  <xacro:property name="second_tier_to_rpicam" value="0.115"/>
+  <xacro:property name="first_tier_to_zed" value="0.155"/>
+  <xacro:property name="first_tier_to_zed_height" value="0.025"/>
   <xacro:property name="third_tier_to_slam_tier" value="0.192"/>
 
 </robot>
